@@ -31,6 +31,26 @@ h2 {
 	font-family: 'Neoneon-Regular';
 	font-size: 2.5em;
 }
+ /* unvisited link */
+a:link {
+    color: #FF1177;
+}
+
+/* visited link */
+a:visited {
+    color: #FF1177;
+}
+
+/* mouse over link */
+a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #FF1177;
+} 
 
 /******* NAVIGATION *******/
 .navBG {

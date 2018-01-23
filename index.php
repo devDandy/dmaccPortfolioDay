@@ -11,7 +11,6 @@
 </head>
 <body>
 	<div class="wrapper">
-		
 		<header>
 			<div class="row">
 				<div class="col-12 navBG">
@@ -94,6 +93,7 @@
 			<p class="small">Font developed and designed by <a href="https://www.behance.net/bakoom-studio">Bakoom Studio</a></p>
 			<p class="small">Des Moines Area Community College - Ankeny, IA</p>
 			<p class="small">Copyright 2017 DMACC Portfolio Day</p>
+			<p class="small"><a href="https://github.com/devDandy/dmaccPortfolioDay">Source Code on GitHub</a></p>
 		</div>
 
 	</footer>

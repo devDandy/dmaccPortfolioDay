@@ -53,10 +53,10 @@ a:active {
 } 
 
 /******* NAVIGATION *******/
-.navBG {
+.nav-background {
 	background-image: linear-gradient(to bottom, rgba(15,21,27,0.3) 0%, #212f3c 100%);
 }
-ul.desktopMenu {
+ul.desktop-menu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -67,9 +67,9 @@ ul.desktopMenu {
 			a {
     			font-family: 'Neoneon-Regular';
     			font-size: 2em;
-				  -webkit-animation: neonGlowing 1.5s 2s infinite alternate;
-				  -moz-animation: neonGlowing 1.5s 2s infinite alternate;
-				  animation: neonGlowing 1.5s 2s infinite alternate;
+				  -webkit-animation: neon-glowing 1.5s 2s infinite alternate;
+				  -moz-animation: neon-glowing 1.5s 2s infinite alternate;
+				  animation: neon-glowing 1.5s 2s infinite alternate;
 				  &:hover {
 				  	font-weight: bold;
 				  	color: $linkColor;
@@ -93,7 +93,7 @@ ul.desktopMenu {
 	}
 }
 
-.mobileMenu {
+.mobile-menu {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -112,7 +112,7 @@ ul.desktopMenu {
 	    display: block;
 	    transition: 0.3s;
     }
-    .closeBtn {
+    .close-btn {
 	    position: absolute;
 	    top: 0;
 	    right: 25px;
@@ -120,13 +120,13 @@ ul.desktopMenu {
 	    margin-left: 50px;
     }
 }
-.mobileNav {
+.mobile-nav {
 	display: none;
 }
 
 /******* HEADER *******/
 
-.headerContainer {
+.header-container {
 	position: relative;
 	height: 100vh;
 	 .test {
@@ -139,11 +139,11 @@ ul.desktopMenu {
 	 }
 }
 
-.mainHeaderContent {
+.main-header-content {
 	height: 250px;
 	position: relative;
 	text-align: center;
-	.dmaccPortfolioDayLogo, .mainHeaderContentCentered { 
+	.dmacc-portfolio-day-logo, .main-header-content-centered { 
 	width: 100%;
 	height: auto;
     margin: 0;
@@ -153,7 +153,7 @@ ul.desktopMenu {
     transform: translate(-50%, -50%);
 	}
 }
-.countdownContainer {
+.countdown-container {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     #portfolioDayCountDown {
@@ -165,13 +165,13 @@ ul.desktopMenu {
     }
 }
 
-.portfolioDayInformation {
+.portfolio-day-information {
 	margin-top: 50px;
 	text-align: center;
 	h2 {
-		-webkit-animation: neonFlashing 4s linear 5s 8 ;
-		-moz-animation: neonFlashing 4s linear 5s 8 ;
-		animation: neonFlashing 4s linear 5s 8 ;
+		-webkit-animation: neon-flashing 4s linear 5s 8 ;
+		-moz-animation: neon-flashing 4s linear 5s 8 ;
+		animation: neon-flashing 4s linear 5s 8 ;
 	&:hover {
 		display: inline-block;
     	text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
@@ -181,9 +181,9 @@ ul.desktopMenu {
 
 }
 
-.socialMediaList {
+.social-media-list {
 	text-align: center;
-	.socialMediaColumn {
+	.social-media-column {
 		display: inline-block;
 		padding: 8px 8px;
 		img {
@@ -201,15 +201,15 @@ ul.desktopMenu {
 /******* MAIN CONTENT *******/
 
 /******* FOOTER *******/
-/*footer and .pushFooter MUST be the same height in order to stay at the bottom of the page*/
+/*footer and .push-footer MUST be the same height in order to stay at the bottom of the page*/
 
 
-footer,.pushFooter {
+footer,.push-footer {
 	height: 50px;
 
 }
 
-.miscellaneousInfo {
+.miscellaneous-info {
 	margin-top: 5px;
 	text-align: center;
 	p {
@@ -221,7 +221,7 @@ footer,.pushFooter {
 /******* MEDIA QUERIES *******/
 
 @media only screen and (max-width: 1268px) {
-	ul.desktopMenu {
+	ul.desktop-menu {
 		// margin-left: 50px;
 		li {
 			display: block;
@@ -230,7 +230,7 @@ footer,.pushFooter {
 }
 /*Reduce countdown timer's size*/
 @media only screen and (max-width: 1125px) { 
-	.countdownContainer { 
+	.countdown-container { 
 			#portfolioDayCountDown {
 			font-size: 3em;
 		}
@@ -239,13 +239,13 @@ footer,.pushFooter {
 }
 
 @media only screen and (max-width: 988px) {
-	.desktopMenu {
+	.desktop-menu {
 		display: none;
 	}
-	.mobileNav {
+	.mobile-nav {
 		display: block;
 		text-align: center;
-		.navLogo { 
+		.nav-logo { 
 			display: inline-block;
     		font-family: 'Neoneon-Regular';
     		font-size: 2.5em;
@@ -254,7 +254,7 @@ footer,.pushFooter {
 				  	color: $linkColor;
 				  }
 		}
-		.openHamburgerMenu {
+		.open-hamburger-menu {
 			display: inline-block;
 			border:2px solid white;
 			padding: 4px;
@@ -262,7 +262,7 @@ footer,.pushFooter {
 			cursor: pointer;
 		}
 	}
-	#mobileMenu {
+	#mobile-menu {
 		background: #536DFE;
 		opacity: 0.9;
 		a { 
@@ -287,7 +287,7 @@ footer,.pushFooter {
 
 /*Get rid of the extra margin between countdown and portfolio information */
 @media only screen and (max-width: 767px) {
-	.portfolioDayInformation {
+	.portfolio-day-information {
 		margin-top: 0;
 	}
 }
@@ -295,16 +295,16 @@ footer,.pushFooter {
 	h2 { /* Makes content readable and less busy. */
 		font-size: 1.5em;
 	}
-	.mobileNav {
-		.navLogo {
+	.mobile-nav {
+		.nav-logo {
 			font-size: 2em;
 		}
 	}
-	.mainHeaderContent { /*Gets rid of excessive whitespace*/
+	.main-header-content { /*Gets rid of excessive whitespace*/
 		height: 100px;
 		margin: 15px;
 	}
-	.countdownContainer { /* Makes content readable and less busy. */
+	.countdown-container { /* Makes content readable and less busy. */
 			#portfolioDayCountDown {
 			font-size: 2em;
 		}
@@ -312,7 +312,7 @@ footer,.pushFooter {
 }
 
 @media only screen and (max-width: 366px) {
-	.mobileNav {
+	.mobile-nav {
 		display: block;
 		text-align: center;
 		a {
@@ -334,7 +334,7 @@ footer,.pushFooter {
 	}
 }
 /******* ANIMATIONS *******/
-@keyframes neonGlowing {
+@keyframes neon-glowing {
   from {
     text-shadow:   0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
   }
@@ -343,7 +343,7 @@ footer,.pushFooter {
   }
 }
 
-@keyframes neonFlashing {
+@keyframes neon-flashing {
   from {
     text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
   }

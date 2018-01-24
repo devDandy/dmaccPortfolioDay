@@ -40,42 +40,42 @@ a:active {
   color: #FF1177; }
 
 /******* NAVIGATION *******/
-.navBG {
+.nav-background {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 21, 27, 0.3)), to(#212f3c));
   background-image: -webkit-linear-gradient(top, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%);
   background-image: -o-linear-gradient(top, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%);
   background-image: linear-gradient(to bottom, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%); }
 
-ul.desktopMenu {
+ul.desktop-menu {
   list-style-type: none;
   margin: 0;
   padding: 0; }
-  ul.desktopMenu li {
+  ul.desktop-menu li {
     float: right; }
-    ul.desktopMenu li.nav-lead {
+    ul.desktop-menu li.nav-lead {
       float: left; }
-      ul.desktopMenu li.nav-lead a {
+      ul.desktop-menu li.nav-lead a {
         font-family: 'Neoneon-Regular';
         font-size: 2em;
-        -webkit-animation: neonGlowing 1.5s 2s infinite alternate;
-        -moz-animation: neonGlowing 1.5s 2s infinite alternate;
-        animation: neonGlowing 1.5s 2s infinite alternate; }
-        ul.desktopMenu li.nav-lead a:hover {
+        -webkit-animation: neon-glowing 1.5s 2s infinite alternate;
+        -moz-animation: neon-glowing 1.5s 2s infinite alternate;
+        animation: neon-glowing 1.5s 2s infinite alternate; }
+        ul.desktop-menu li.nav-lead a:hover {
           font-weight: bold;
           color: #ff4500; }
-    ul.desktopMenu li a {
+    ul.desktop-menu li a {
       display: block;
       font-family: 'Montserrat', sans-serif;
       color: white;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none; }
-      ul.desktopMenu li a:hover {
+      ul.desktop-menu li a:hover {
         font-weight: bold;
         color: #fff;
         text-shadow: 0 0 1px #ff4500, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
 
-.mobileMenu {
+.mobile-menu {
   height: 100%;
   /* 100% Full-height */
   width: 0;
@@ -97,7 +97,7 @@ ul.desktopMenu {
   -o-transition: 0.5s;
   transition: 0.5s;
   /* 0.5 second transition effect to slide in the sidenav */ }
-  .mobileMenu a {
+  .mobile-menu a {
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -105,21 +105,21 @@ ul.desktopMenu {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
-  .mobileMenu .closeBtn {
+  .mobile-menu .close-btn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px; }
 
-.mobileNav {
+.mobile-nav {
   display: none; }
 
 /******* HEADER *******/
-.headerContainer {
+.header-container {
   position: relative;
   height: 100vh; }
-  .headerContainer .test {
+  .header-container .test {
     width: 95vw;
     position: absolute;
     top: 50%;
@@ -129,11 +129,11 @@ ul.desktopMenu {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
 
-.mainHeaderContent {
+.main-header-content {
   height: 250px;
   position: relative;
   text-align: center; }
-  .mainHeaderContent .dmaccPortfolioDayLogo, .mainHeaderContent .mainHeaderContentCentered {
+  .main-header-content .dmacc-portfolio-day-logo, .main-header-content .main-header-content-centered {
     width: 100%;
     height: auto;
     margin: 0;
@@ -144,83 +144,83 @@ ul.desktopMenu {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
 
-.countdownContainer {
+.countdown-container {
   font-family: 'Montserrat', sans-serif;
   text-align: center; }
-  .countdownContainer #portfolioDayCountDown {
+  .countdown-container #portfolioDayCountDown {
     font-size: 4em; }
-    .countdownContainer #portfolioDayCountDown span {
+    .countdown-container #portfolioDayCountDown span {
       font-family: 'Neoneon-Regular';
       text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
 
-.portfolioDayInformation {
+.portfolio-day-information {
   margin-top: 50px;
   text-align: center; }
-  .portfolioDayInformation h2 {
-    -webkit-animation: neonFlashing 4s linear 5s 8;
-    -moz-animation: neonFlashing 4s linear 5s 8;
-    animation: neonFlashing 4s linear 5s 8; }
-    .portfolioDayInformation h2:hover {
+  .portfolio-day-information h2 {
+    -webkit-animation: neon-flashing 4s linear 5s 8;
+    -moz-animation: neon-flashing 4s linear 5s 8;
+    animation: neon-flashing 4s linear 5s 8; }
+    .portfolio-day-information h2:hover {
       display: inline-block;
       text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
 
-.socialMediaList {
+.social-media-list {
   text-align: center; }
-  .socialMediaList .socialMediaColumn {
+  .social-media-list .social-media-column {
     display: inline-block;
     padding: 8px 8px; }
-    .socialMediaList .socialMediaColumn img {
+    .social-media-list .social-media-column img {
       width: 32px;
       height: 32px; }
-      .socialMediaList .socialMediaColumn img:hover {
+      .social-media-list .social-media-column img:hover {
         -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #FF1177, 0 0 25px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 65px #FF1177;
         box-shadow: 0 0 5px #fff, 0 0 10px #FF1177, 0 0 25px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 65px #FF1177; }
 
 /******* MAIN CONTENT *******/
 /******* FOOTER *******/
-/*footer and .pushFooter MUST be the same height in order to stay at the bottom of the page*/
-footer, .pushFooter {
+/*footer and .push-footer MUST be the same height in order to stay at the bottom of the page*/
+footer, .push-footer {
   height: 50px; }
 
-.miscellaneousInfo {
+.miscellaneous-info {
   margin-top: 5px;
   text-align: center; }
-  .miscellaneousInfo p {
+  .miscellaneous-info p {
     margin: 0; }
 
 /******* MEDIA QUERIES *******/
 @media only screen and (max-width: 1268px) {
-  ul.desktopMenu li {
+  ul.desktop-menu li {
     display: block; } }
 
 /*Reduce countdown timer's size*/
 @media only screen and (max-width: 1125px) {
-  .countdownContainer #portfolioDayCountDown {
+  .countdown-container #portfolioDayCountDown {
     font-size: 3em; } }
 
 @media only screen and (max-width: 988px) {
-  .desktopMenu {
+  .desktop-menu {
     display: none; }
-  .mobileNav {
+  .mobile-nav {
     display: block;
     text-align: center; }
-    .mobileNav .navLogo {
+    .mobile-nav .nav-logo {
       display: inline-block;
       font-family: 'Neoneon-Regular';
       font-size: 2.5em;
       color: white; }
-      .mobileNav .navLogo:hover {
+      .mobile-nav .nav-logo:hover {
         color: #ff4500; }
-    .mobileNav .openHamburgerMenu {
+    .mobile-nav .open-hamburger-menu {
       display: inline-block;
       border: 2px solid white;
       padding: 4px;
       border-radius: 5px;
       cursor: pointer; }
-  #mobileMenu {
+  #mobile-menu {
     background: #536DFE;
     opacity: 0.9; }
-    #mobileMenu a {
+    #mobile-menu a {
       display: block;
       font-family: 'Neoneon-Regular';
       color: white;
@@ -228,45 +228,45 @@ footer, .pushFooter {
       padding: 14px 16px;
       text-transform: uppercase;
       text-decoration: none; }
-      #mobileMenu a:nth-child(2) {
+      #mobile-menu a:nth-child(2) {
         color: black;
         font-size: 3em; }
-      #mobileMenu a:hover {
+      #mobile-menu a:hover {
         color: #ff4500;
         text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; } }
 
 /*Get rid of the extra margin between countdown and portfolio information */
 @media only screen and (max-width: 767px) {
-  .portfolioDayInformation {
+  .portfolio-day-information {
     margin-top: 0; } }
 
 @media only screen and (max-width: 440px) {
   h2 {
     /* Makes content readable and less busy. */
     font-size: 1.5em; }
-  .mobileNav .navLogo {
+  .mobile-nav .nav-logo {
     font-size: 2em; }
-  .mainHeaderContent {
+  .main-header-content {
     /*Gets rid of excessive whitespace*/
     height: 100px;
     margin: 15px; }
-  .countdownContainer {
+  .countdown-container {
     /* Makes content readable and less busy. */ }
-    .countdownContainer #portfolioDayCountDown {
+    .countdown-container #portfolioDayCountDown {
       font-size: 2em; } }
 
 @media only screen and (max-width: 366px) {
-  .mobileNav {
+  .mobile-nav {
     display: block;
     text-align: center; }
-    .mobileNav a {
+    .mobile-nav a {
       float: none;
       font-family: 'Neoneon-Regular';
       font-size: 1.5em;
       color: white; }
-      .mobileNav a:hover {
+      .mobile-nav a:hover {
         color: #ff4500; }
-    .mobileNav span {
+    .mobile-nav span {
       float: none;
       border: 2px solid white;
       padding: 4px;
@@ -274,24 +274,24 @@ footer, .pushFooter {
       cursor: pointer; } }
 
 /******* ANIMATIONS *******/
-@-webkit-keyframes neonGlowing {
+@-webkit-keyframes neon-glowing {
   from {
     text-shadow: 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177; }
   to {
     text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; } }
-@keyframes neonGlowing {
+@keyframes neon-glowing {
   from {
     text-shadow: 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177; }
   to {
     text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; } }
 
-@-webkit-keyframes neonFlashing {
+@-webkit-keyframes neon-flashing {
   from {
     text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
   to {
     text-shadow: none; } }
 
-@keyframes neonFlashing {
+@keyframes neon-flashing {
   from {
     text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
   to {

@@ -13,9 +13,9 @@
 	<div class="wrapper">
 		<header>
 			<div class="row">
-				<div class="col-12 navBG">
+				<div class="col-12 nav-background">
 					<nav>
-						<ul class="desktopMenu">
+						<ul class="desktop-menu">
 							<li class="nav-lead"><a href="#">DMACC Portfolio Day</a></li>
 							<li><a href="#">Graphic Design</a> </li>
 							<li><a href="#">Photography</a></li>
@@ -23,16 +23,16 @@
 							<li><a href="#">Video Production</a> </li>
 							<li><a href="#">Animation</a></li>
 						</ul>
-						<div  class="mobileNav">
-							<a href="#" class="navLogo">DMACC Portfolio Day</a>
+						<div  class="mobile-nav">
+							<a href="#" class="nav-logo">DMACC Portfolio Day</a>
 							<br>
-							<span onclick="openNav()" class="openHamburgerMenu">
+							<span onclick="openNav()" class="open-hamburger-menu">
 								Menu
 								<img src="assets/img/menu.png">
 							</span>
 						</div>
-						<div class="mobileMenu" id="mobileMenu">
-  							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times; </a>
+						<div class="mobile-menu" id="mobile-menu">
+  							<a href="javascript:void(0)" class="close-btn" onclick="closeNav()"> &times; </a>
 							<a href="#">DMACC Portfolio Day</a> 
 							<a href="#">Graphic Design</a> 
 							<a href="#">Photography</a>
@@ -43,18 +43,18 @@
 					</nav>
 				</div>
 			</div>
-			<div class="headerContainer">
+			<div class="header-container">
 			<div class="test">
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
-						<div class="mainHeaderContent">
-							<img class="dmaccPortfolioDayLogo" src="assets/img/dmaccPortfolioDayLogo.svg">
+						<div class="main-header-content">
+							<img class="dmacc-portfolio-day-logo" src="assets/img/dmaccPortfolioDayLogo.svg">
 						</div>
 				</div>
 				<div class="col-md-6 col-sm-12">
-					<div class="countdownContainer">
-						<div class="mainHeaderContent">
-							<div class="mainHeaderContentCentered">
+					<div class="countdown-container">
+						<div class="main-header-content">
+							<div class="main-header-content-centered">
 								<div id="portfolioDayCountDown"></div>
 								<p>until the awesomeness begins.</p>
 							</div>
@@ -66,16 +66,16 @@
 			</div>
 			<div class="row">
 				<div class="col-12">
-					<div class="portfolioDayInformation">
+					<div class="portfolio-day-information">
 						<h2>Thursday, April 12, 2018</h2>
 						<h2>Noon - 5:00 P.M.</h2>
 						<h2>Greater Des Moines Botanical Garden</h2>
 						<p class="lead"></p>
-						<div class="socialMediaList">
-								<div class="socialMediaColumn">
+						<div class="social-media-list">
+								<div class="social-media-column">
 									<a href="https://www.facebook.com/dmaccportfolioday/"><img src="assets/img/icons/facebook.png"></a>
 								</div>
-								<div class="socialMediaColumn">
+								<div class="social-media-column">
 									<a href="https://www.instagram.com/dmaccportfolioday/"><img src="assets/img/icons/instagram1.png"></a>
 								</div>
 						</div>				
@@ -89,9 +89,9 @@
 		</main>
 	</div>
 	<!-- wrapper -->
-	<div class="pushFooter"></div>
+	<div class="push-footer"></div>
 	<footer >
-		<div class="miscellaneousInfo">
+		<div class="miscellaneous-info">
 			<p class="small">Font developed and designed by <a href="https://www.behance.net/bakoom-studio">Bakoom Studio</a></p>
 			<p class="small">Des Moines Area Community College - Ankeny, IA</p>
 			<p class="small">Copyright 2017 DMACC Portfolio Day</p>

@@ -1,1 +1,298 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");@font-face{font-family:'Neoneon-Regular';src:url("../fonts/neoneon/neoneon-webfont.woff2") format("woff2"), url("../fonts/neoneon/neoneon-webfont.woff") format("woff");font-weight:normal;font-style:normal}body{background:#212f3c;color:white}.wrapper{min-height:100%}.col-md-6,.row{padding:0;margin:0}h2{font-family:'Neoneon-Regular';font-size:2.5em}a:link{color:#FF1177}a:visited{color:#FF1177}a:hover{font-weight:bold;text-decoration:none}a:active{color:#FF1177}.navBG{background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(15, 21, 27, 0.3)), to(#212f3c));background-image:-webkit-linear-gradient(top, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%);background-image:-o-linear-gradient(top, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%);background-image:linear-gradient(to bottom, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%)}ul.desktopMenu{list-style-type:none;margin:0;padding:0}ul.desktopMenu li{float:right}ul.desktopMenu li.nav-lead{float:left}ul.desktopMenu li.nav-lead a{font-family:'Neoneon-Regular';font-size:2em;-webkit-animation:neonGlowing 1.5s 2s infinite alternate;-moz-animation:neonGlowing 1.5s 2s infinite alternate;animation:neonGlowing 1.5s 2s infinite alternate}ul.desktopMenu li.nav-lead a:hover{font-weight:bold;color:#ff4500}ul.desktopMenu li a{display:block;font-family:'Montserrat', sans-serif;color:white;text-align:center;padding:14px 16px;text-decoration:none}ul.desktopMenu li a:hover{font-weight:bold;color:#fff;text-shadow:0 0 1px #ff4500, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177}.mobileMenu{height:100%;width:0;position:fixed;z-index:1;top:0;left:0;background:#536DFE;opacity:0.9;overflow-x:hidden;padding-top:60px;-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s}.mobileMenu a{text-decoration:none;font-size:25px;color:#818181;display:block;-webkit-transition:0.3s;-o-transition:0.3s;transition:0.3s}.mobileMenu .closeBtn{position:absolute;top:0;right:25px;font-size:36px;margin-left:50px}.mobileNav{display:none}.headerContainer{height:100vh}.mainHeaderContent{height:250px;position:relative;text-align:center}.mainHeaderContent .dmaccPortfolioDayLogo,.mainHeaderContent .mainHeaderContentCentered{width:100%;height:auto;margin:0;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%)}.countdownContainer{font-family:'Montserrat', sans-serif;text-align:center}.countdownContainer #portfolioDayCountDown{font-size:4em}.countdownContainer #portfolioDayCountDown span{font-family:'Neoneon-Regular';text-shadow:0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177}.portfolioDayInformation{margin-top:50px;text-align:center}.portfolioDayInformation h2{-webkit-animation:neonFlashing 4s linear 5s 8;-moz-animation:neonFlashing 4s linear 5s 8;animation:neonFlashing 4s linear 5s 8}.portfolioDayInformation h2:hover{display:inline-block;text-shadow:0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177}.socialMediaList{text-align:center}.socialMediaList .socialMediaColumn{display:inline-block;padding:8px 8px}.socialMediaList .socialMediaColumn img{width:32px;height:32px}.socialMediaList .socialMediaColumn img:hover{-webkit-box-shadow:0 0 5px #fff, 0 0 10px #FF1177, 0 0 25px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 65px #FF1177;box-shadow:0 0 5px #fff, 0 0 10px #FF1177, 0 0 25px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 65px #FF1177}.pushFooter,footer{height:50px}.miscellaneousInfo{margin-top:5px;text-align:center}.miscellaneousInfo p{margin:0}@media only screen and (max-width:1268px){ul.desktopMenu li{display:block}}@media only screen and (max-width:1125px){.countdownContainer #portfolioDayCountDown{font-size:3em}}@media only screen and (max-width:988px){.desktopMenu{display:none}.mobileNav{display:block;text-align:center}.mobileNav .navLogo{display:inline-block;font-family:'Neoneon-Regular';font-size:2.5em;color:white}.mobileNav .navLogo:hover{color:#ff4500}.mobileNav .openHamburgerMenu{display:inline-block;border:2px solid white;padding:4px;border-radius:5px;cursor:pointer}#mobileMenu{background:#536DFE;opacity:0.9}#mobileMenu a{display:block;font-family:'Neoneon-Regular';color:white;text-align:center;padding:14px 16px;text-transform:uppercase;text-decoration:none}#mobileMenu a:nth-child(2){color:black;font-size:3em}#mobileMenu a:hover{color:#ff4500;text-shadow:0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177}}@media only screen and (max-width:767px){.portfolioDayInformation{margin-top:0}}@media only screen and (max-width:440px){h2{font-size:1.5em}.mobileNav .navLogo{font-size:2em}.mainHeaderContent{height:100px;margin:15px}.countdownContainer{}.countdownContainer #portfolioDayCountDown{font-size:2em}}@media only screen and (max-width:366px){.mobileNav{display:block;text-align:center}.mobileNav a{float:none;font-family:'Neoneon-Regular';font-size:1.5em;color:white}.mobileNav a:hover{color:#ff4500}.mobileNav span{float:none;border:2px solid white;padding:4px;border-radius:5px;cursor:pointer}}@-webkit-keyframes neonGlowing{0%{text-shadow:0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177}to{text-shadow:0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177}}@keyframes neonGlowing{0%{text-shadow:0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177}to{text-shadow:0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177}}@-webkit-keyframes neonFlashing{0%{text-shadow:0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177}to{text-shadow:none}}@keyframes neonFlashing{0%{text-shadow:0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177}to{text-shadow:none}}
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@font-face {
+  font-family: 'Neoneon-Regular';
+  src: url("../fonts/neoneon/neoneon-webfont.woff2") format("woff2"), url("../fonts/neoneon/neoneon-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/******* GENERAL *******/
+body {
+  background: #212f3c;
+  color: white; }
+
+.wrapper {
+  min-height: 100%; }
+
+/*Gets rid of unnecessary horizontal scrolling */
+.col-md-6, .row {
+  padding: 0;
+  margin: 0; }
+
+h2 {
+  font-family: 'Neoneon-Regular';
+  font-size: 2.5em; }
+
+/* unvisited link */
+a:link {
+  color: #FF1177; }
+
+/* visited link */
+a:visited {
+  color: #FF1177; }
+
+/* mouse over link */
+a:hover {
+  font-weight: bold;
+  text-decoration: none; }
+
+/* selected link */
+a:active {
+  color: #FF1177; }
+
+/******* NAVIGATION *******/
+.navBG {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 21, 27, 0.3)), to(#212f3c));
+  background-image: -webkit-linear-gradient(top, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%);
+  background-image: -o-linear-gradient(top, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%);
+  background-image: linear-gradient(to bottom, rgba(15, 21, 27, 0.3) 0%, #212f3c 100%); }
+
+ul.desktopMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  ul.desktopMenu li {
+    float: right; }
+    ul.desktopMenu li.nav-lead {
+      float: left; }
+      ul.desktopMenu li.nav-lead a {
+        font-family: 'Neoneon-Regular';
+        font-size: 2em;
+        -webkit-animation: neonGlowing 1.5s 2s infinite alternate;
+        -moz-animation: neonGlowing 1.5s 2s infinite alternate;
+        animation: neonGlowing 1.5s 2s infinite alternate; }
+        ul.desktopMenu li.nav-lead a:hover {
+          font-weight: bold;
+          color: #ff4500; }
+    ul.desktopMenu li a {
+      display: block;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none; }
+      ul.desktopMenu li a:hover {
+        font-weight: bold;
+        color: #fff;
+        text-shadow: 0 0 1px #ff4500, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
+
+.mobileMenu {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background: #536DFE;
+  opacity: 0.9;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+  .mobileMenu a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+  .mobileMenu .closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+
+.mobileNav {
+  display: none; }
+
+/******* HEADER *******/
+.headerContainer {
+  position: relative;
+  height: 100vh; }
+  .headerContainer .test {
+    width: 95vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.mainHeaderContent {
+  height: 250px;
+  position: relative;
+  text-align: center; }
+  .mainHeaderContent .dmaccPortfolioDayLogo, .mainHeaderContent .mainHeaderContentCentered {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.countdownContainer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+  .countdownContainer #portfolioDayCountDown {
+    font-size: 4em; }
+    .countdownContainer #portfolioDayCountDown span {
+      font-family: 'Neoneon-Regular';
+      text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
+
+.portfolioDayInformation {
+  margin-top: 50px;
+  text-align: center; }
+  .portfolioDayInformation h2 {
+    -webkit-animation: neonFlashing 4s linear 5s 8;
+    -moz-animation: neonFlashing 4s linear 5s 8;
+    animation: neonFlashing 4s linear 5s 8; }
+    .portfolioDayInformation h2:hover {
+      display: inline-block;
+      text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
+
+.socialMediaList {
+  text-align: center; }
+  .socialMediaList .socialMediaColumn {
+    display: inline-block;
+    padding: 8px 8px; }
+    .socialMediaList .socialMediaColumn img {
+      width: 32px;
+      height: 32px; }
+      .socialMediaList .socialMediaColumn img:hover {
+        -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #FF1177, 0 0 25px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 65px #FF1177;
+        box-shadow: 0 0 5px #fff, 0 0 10px #FF1177, 0 0 25px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 65px #FF1177; }
+
+/******* MAIN CONTENT *******/
+/******* FOOTER *******/
+/*footer and .pushFooter MUST be the same height in order to stay at the bottom of the page*/
+footer, .pushFooter {
+  height: 50px; }
+
+.miscellaneousInfo {
+  margin-top: 5px;
+  text-align: center; }
+  .miscellaneousInfo p {
+    margin: 0; }
+
+/******* MEDIA QUERIES *******/
+@media only screen and (max-width: 1268px) {
+  ul.desktopMenu li {
+    display: block; } }
+
+/*Reduce countdown timer's size*/
+@media only screen and (max-width: 1125px) {
+  .countdownContainer #portfolioDayCountDown {
+    font-size: 3em; } }
+
+@media only screen and (max-width: 988px) {
+  .desktopMenu {
+    display: none; }
+  .mobileNav {
+    display: block;
+    text-align: center; }
+    .mobileNav .navLogo {
+      display: inline-block;
+      font-family: 'Neoneon-Regular';
+      font-size: 2.5em;
+      color: white; }
+      .mobileNav .navLogo:hover {
+        color: #ff4500; }
+    .mobileNav .openHamburgerMenu {
+      display: inline-block;
+      border: 2px solid white;
+      padding: 4px;
+      border-radius: 5px;
+      cursor: pointer; }
+  #mobileMenu {
+    background: #536DFE;
+    opacity: 0.9; }
+    #mobileMenu a {
+      display: block;
+      font-family: 'Neoneon-Regular';
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-transform: uppercase;
+      text-decoration: none; }
+      #mobileMenu a:nth-child(2) {
+        color: black;
+        font-size: 3em; }
+      #mobileMenu a:hover {
+        color: #ff4500;
+        text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; } }
+
+/*Get rid of the extra margin between countdown and portfolio information */
+@media only screen and (max-width: 767px) {
+  .portfolioDayInformation {
+    margin-top: 0; } }
+
+@media only screen and (max-width: 440px) {
+  h2 {
+    /* Makes content readable and less busy. */
+    font-size: 1.5em; }
+  .mobileNav .navLogo {
+    font-size: 2em; }
+  .mainHeaderContent {
+    /*Gets rid of excessive whitespace*/
+    height: 100px;
+    margin: 15px; }
+  .countdownContainer {
+    /* Makes content readable and less busy. */ }
+    .countdownContainer #portfolioDayCountDown {
+      font-size: 2em; } }
+
+@media only screen and (max-width: 366px) {
+  .mobileNav {
+    display: block;
+    text-align: center; }
+    .mobileNav a {
+      float: none;
+      font-family: 'Neoneon-Regular';
+      font-size: 1.5em;
+      color: white; }
+      .mobileNav a:hover {
+        color: #ff4500; }
+    .mobileNav span {
+      float: none;
+      border: 2px solid white;
+      padding: 4px;
+      border-radius: 5px;
+      cursor: pointer; } }
+
+/******* ANIMATIONS *******/
+@-webkit-keyframes neonGlowing {
+  from {
+    text-shadow: 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177; }
+  to {
+    text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; } }
+@keyframes neonGlowing {
+  from {
+    text-shadow: 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177; }
+  to {
+    text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; } }
+
+@-webkit-keyframes neonFlashing {
+  from {
+    text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
+  to {
+    text-shadow: none; } }
+
+@keyframes neonFlashing {
+  from {
+    text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177; }
+  to {
+    text-shadow: none; } }

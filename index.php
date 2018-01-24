@@ -44,6 +44,7 @@
 				</div>
 			</div>
 			<div class="headerContainer">
+			<div class="test">
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
 						<div class="mainHeaderContent">
@@ -82,6 +83,7 @@
 				</div>
 			</div>
 		</div>
+	</div>
 		</header>
 		<main>
 		</main>

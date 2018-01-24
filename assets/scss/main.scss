@@ -127,16 +127,7 @@ ul.desktop-menu {
 /******* HEADER *******/
 
 .header-container {
-	position: relative;
 	height: 100vh;
-	 .test {
-		width: 95vw;
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         margin-right: -50%;
-         transform: translate(-50%, -50%);
-	 }
 }
 
 .main-header-content {
@@ -285,14 +276,31 @@ footer,.push-footer {
 	}
 }
 
-/*Get rid of the extra margin between countdown and portfolio information */
+
+@media only screen and (min-width: 1850px) {
+	.header-container {
+		position: relative;
+		 .test {
+			width: 95vw;
+	        position: absolute;
+	        top: 50%;
+	        left: 50%;
+	        margin-right: -50%;
+	        transform: translate(-50%, -50%);
+		 }
+	}
+}
+
 @media only screen and (max-width: 767px) {
+	/*Get rid of the extra margin between countdown and portfolio information */
 	.portfolio-day-information {
 		margin-top: 0;
 	}
 }
+
 @media only screen and (max-width: 440px) { 
-	h2 { /* Makes content readable and less busy. */
+	/* Makes content readable and less busy. */
+	h2 { 
 		font-size: 1.5em;
 	}
 	.mobile-nav {

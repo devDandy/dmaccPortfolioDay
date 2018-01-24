@@ -10,11 +10,12 @@
  @import url('https://fonts.googleapis.com/css?family=Montserrat');
 //SCSS VARIABLES 
 
-$linkColor: #ff4500 ;
-
+$nav-hover-color: #ff4500 ;
+$link-color: #FF1177;
+$primary-color: #212f3c;
 /******* GENERAL *******/
 body {
-	background:#212f3c;
+	background:$primary-color;
 	color: white;
 }
 .wrapper { // Makes footer stay at the bottom of the page
@@ -33,12 +34,12 @@ h2 {
 }
  /* unvisited link */
 a:link {
-    color: #FF1177;
+    color: $link-color;
 }
 
 /* visited link */
 a:visited {
-    color: #FF1177;
+    color: $link-color;
 }
 
 /* mouse over link */
@@ -49,12 +50,12 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #FF1177;
+    color: $link-color;
 } 
 
 /******* NAVIGATION *******/
 .nav-background {
-	background-image: linear-gradient(to bottom, rgba(15,21,27,0.3) 0%, #212f3c 100%);
+	background-image: linear-gradient(to bottom, rgba(15,21,27,0.3) 0%, $primary-color 100%);
 }
 ul.desktop-menu {
 	list-style-type: none;
@@ -72,7 +73,7 @@ ul.desktop-menu {
 				  animation: neon-glowing 1.5s 2s infinite alternate;
 				  &:hover {
 				  	font-weight: bold;
-				  	color: $linkColor;
+				  	color: $nav-hover-color;
 				  }
 			}
 		}
@@ -87,7 +88,7 @@ ul.desktop-menu {
 			&:hover {
 				font-weight: bold;
 				color: #fff;
-    			text-shadow: 0 0 1px $linkColor, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    			text-shadow: 0 0 1px $nav-hover-color, 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
 			}
 		}
 	}
@@ -151,7 +152,7 @@ ul.desktop-menu {
     	font-size: 4em;
     	span {
     		font-family: 'Neoneon-Regular';
-    		text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    		text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
     	}
     }
 }
@@ -164,8 +165,7 @@ ul.desktop-menu {
 		-moz-animation: neon-flashing 4s linear 5s 8 ;
 		animation: neon-flashing 4s linear 5s 8 ;
 	&:hover {
-		display: inline-block;
-    	text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    	text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
 	}
 	}
 
@@ -181,7 +181,7 @@ ul.desktop-menu {
 			width: 32px;
 			height: 32px;
 			&:hover {
-	    		box-shadow: 0 0 5px #fff, 0 0 10px #FF1177, 0 0 25px #FF1177, 0 0 30px #FF1177, 0 0 40px #FF1177, 0 0 65px #FF1177;
+	    		box-shadow: 0 0 5px #fff, 0 0 10px $link-color, 0 0 25px $link-color, 0 0 30px $link-color, 0 0 40px $link-color, 0 0 65px $link-color;
 			}
 		}
 	}
@@ -242,7 +242,7 @@ footer,.push-footer {
     		font-size: 2.5em;
     		color: white;
 				  &:hover {
-				  	color: $linkColor;
+				  	color: $nav-hover-color;
 				  }
 		}
 		.open-hamburger-menu {
@@ -265,19 +265,18 @@ footer,.push-footer {
 			text-transform: uppercase;
 			text-decoration: none;
 			&:nth-child(2) {
-				color:black;
 				font-size:3em;
 			}
 			&:hover {
-				color:$linkColor;
-    			text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+				color:$nav-hover-color;
+    			text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
 			}
 		}
 	}
 }
 
 
-@media only screen and (min-width: 1850px) {
+@media only screen and (min-height: 1000px) {
 	.header-container {
 		position: relative;
 		 .test {
@@ -329,10 +328,10 @@ footer,.push-footer {
     		font-size: 1.5em;
     		color: white;
 				  &:hover {
-				  	color: $linkColor;
+				  	color: $nav-hover-color;
 				  }
 		}
-		span {
+		.open-hamburger-menu {
 			float: none;
 			border:2px solid white;
 			padding: 4px;
@@ -344,16 +343,16 @@ footer,.push-footer {
 /******* ANIMATIONS *******/
 @keyframes neon-glowing {
   from {
-    text-shadow:   0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+    text-shadow:   0 0 30px #fff, 0 0 40px $link-color, 0 0 70px $link-color, 0 0 80px $link-color, 0 0 100px $link-color, 0 0 150px $link-color;
   }
   to {
-    text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
   }
 }
 
 @keyframes neon-flashing {
   from {
-    text-shadow: 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
   }
   to {
   	text-shadow: none;

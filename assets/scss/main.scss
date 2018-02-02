@@ -10,9 +10,10 @@
  @import url('https://fonts.googleapis.com/css?family=Montserrat');
 //SCSS VARIABLES 
 
-$nav-hover-color: #ff4500 ;
-$link-color: #FF1177;
-$primary-color: #212f3c;
+$nav-hover-color: #FBAD2F ;
+$neon-color: #FF1177;
+$link-color: #D4295E;
+$primary-color: #5E4B8D;
 /******* GENERAL *******/
 body {
 	background:$primary-color;
@@ -73,7 +74,6 @@ ul.desktop-menu {
 				  animation: neon-glowing 1.5s 2s infinite alternate;
 				  &:hover {
 				  	font-weight: bold;
-				  	color: $nav-hover-color;
 				  }
 			}
 		}
@@ -88,7 +88,7 @@ ul.desktop-menu {
 			&:hover {
 				font-weight: bold;
 				color: #fff;
-    			text-shadow: 0 0 1px $nav-hover-color, 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
+    			text-shadow: 0 0 1px $nav-hover-color, 0 0 15px #fff, 0 0 20px $neon-color, 0 0 35px $neon-color, 0 0 40px $neon-color, 0 0 50px $neon-color, 0 0 75px $neon-color;
 			}
 		}
 	}
@@ -101,7 +101,7 @@ ul.desktop-menu {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-	background: #536DFE;
+	background: $primary-color;
 	opacity: 0.9;    
 	overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -152,7 +152,7 @@ ul.desktop-menu {
     	font-size: 4em;
     	span {
     		font-family: 'Neoneon-Regular';
-    		text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
+    		text-shadow: 0 0 15px #fff, 0 0 20px $neon-color, 0 0 35px $neon-color, 0 0 40px $neon-color, 0 0 50px $neon-color, 0 0 75px $neon-color;
     	}
     }
 }
@@ -165,7 +165,7 @@ ul.desktop-menu {
 		-moz-animation: neon-flashing 4s linear 5s 8 ;
 		animation: neon-flashing 4s linear 5s 8 ;
 	&:hover {
-    	text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
+    	text-shadow: 0 0 15px #fff, 0 0 20px $neon-color, 0 0 35px $neon-color, 0 0 40px $neon-color, 0 0 50px $neon-color, 0 0 75px $neon-color;
 	}
 	}
 
@@ -181,7 +181,7 @@ ul.desktop-menu {
 			width: 32px;
 			height: 32px;
 			&:hover {
-	    		box-shadow: 0 0 5px #fff, 0 0 10px $link-color, 0 0 25px $link-color, 0 0 30px $link-color, 0 0 40px $link-color, 0 0 65px $link-color;
+	    		box-shadow: 0 0 5px #fff, 0 0 10px $neon-color, 0 0 25px $neon-color, 0 0 30px $neon-color, 0 0 40px $neon-color, 0 0 65px $neon-color;
 			}
 		}
 	}
@@ -254,7 +254,6 @@ footer,.push-footer {
 		}
 	}
 	#mobile-menu {
-		background: #536DFE;
 		opacity: 0.9;
 		a { 
 			display: block;
@@ -269,7 +268,7 @@ footer,.push-footer {
 			}
 			&:hover {
 				color:$nav-hover-color;
-    			text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
+    			text-shadow: 0 0 15px #fff, 0 0 20px $neon-color, 0 0 35px $neon-color, 0 0 40px $neon-color, 0 0 50px $neon-color, 0 0 75px $neon-color;
 			}
 		}
 	}
@@ -343,16 +342,16 @@ footer,.push-footer {
 /******* ANIMATIONS *******/
 @keyframes neon-glowing {
   from {
-    text-shadow:   0 0 30px #fff, 0 0 40px $link-color, 0 0 70px $link-color, 0 0 80px $link-color, 0 0 100px $link-color, 0 0 150px $link-color;
+    text-shadow:   0 0 30px #fff, 0 0 40px $neon-color, 0 0 70px $neon-color, 0 0 80px $neon-color, 0 0 100px $neon-color, 0 0 150px $neon-color;
   }
   to {
-    text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
+    text-shadow: 0 0 15px #fff, 0 0 20px $neon-color, 0 0 35px $neon-color, 0 0 40px $neon-color, 0 0 50px $neon-color, 0 0 75px $neon-color;
   }
 }
 
 @keyframes neon-flashing {
   from {
-    text-shadow: 0 0 15px #fff, 0 0 20px $link-color, 0 0 35px $link-color, 0 0 40px $link-color, 0 0 50px $link-color, 0 0 75px $link-color;
+    text-shadow: 0 0 15px #fff, 0 0 20px $neon-color, 0 0 35px $neon-color, 0 0 40px $neon-color, 0 0 50px $neon-color, 0 0 75px $neon-color;
   }
   to {
   	text-shadow: none;

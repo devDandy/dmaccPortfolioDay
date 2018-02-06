@@ -18,8 +18,8 @@ var updateEverySecond = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="portfolioDayCountDown"
-  document.getElementById("portfolioDayCountDown").innerHTML = days + " <span>d</span> " + hours + " <span>h</span> "
-  + minutes + " <span>m</span> " + seconds + " <span>s</span> ";
+  document.getElementById("portfolioDayCountDown").innerHTML = "<span class='countdownNumber'>" + days + "</span> <span class='countdownLetter'>d</span> <span class='countdownNumber'>" + hours + "</span> <span class='countdownLetter'>h</span> <span class='countdownNumber'>"
+  + minutes + "</span> <span class='countdownLetter'>m</span> <span class='countdownNumber'>" + seconds + "</span> <span class='countdownLetter'>s</span> ";
 
   // If the count down is finished, do something cool?
   if (distance < 0) {

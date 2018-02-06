@@ -44,7 +44,7 @@
 				</div>
 			</div>
 			<div class="header-container">
-			<div class="test">
+			<div class="forBiggerScreens">
 			<div class="row">
 				<div class="col-md-6 col-sm-12">
 						<div class="main-header-content">

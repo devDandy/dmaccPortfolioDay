@@ -10,10 +10,10 @@
  @import url('https://fonts.googleapis.com/css?family=Montserrat');
 //SCSS VARIABLES 
 
+$primary-color: #5E4B8D;
 $nav-hover-color: #FBAD2F ;
 $neon-color: #FF1177;
 $link-color: #D4295E;
-$primary-color: #5E4B8D;
 /******* GENERAL *******/
 body {
 	background:$primary-color;
@@ -147,15 +147,22 @@ ul.desktop-menu {
 }
 .countdown-container {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    text-align: cente r;
     #portfolioDayCountDown {
     	font-size: 4em;
-    	span {
+    	.countdownLetter {
     		font-family: 'Neoneon-Regular';
     		text-shadow: 0 0 15px #fff, 0 0 20px $neon-color, 0 0 35px $neon-color, 0 0 40px $neon-color, 0 0 50px $neon-color, 0 0 75px $neon-color;
     	}
+		.countdownNumber {
+			width: 70px;
+			display: inline-block;
+		}
     }
+
 }
+
+
 
 .portfolio-day-information {
 	margin-top: 50px;
@@ -219,11 +226,32 @@ footer,.push-footer {
 		}
 	}
 }
+
+@media only screen and (max-width: 936px) {
+	.countdownNumber {
+		width: 40px !important;
+		display: inline-block;
+	}
+}
+
+/*ipad*/
+@media only screen and (width: 768px) and (height: 1024px) {
+	.col-md-6, .col-md-6 {
+		flex:  0 0 100% !important;
+		max-width: 100% !important;
+	}
+	.countdownNumber, .countdownLetter {
+		font-size: 2em;
+		margin: 0 5px 0 5px;
+	}
+
+}
+
 /*Reduce countdown timer's size*/
 @media only screen and (max-width: 1125px) { 
 	.countdown-container { 
 			#portfolioDayCountDown {
-			font-size: 3em;
+			font-size: 2em;
 		}
 	}
 
@@ -278,7 +306,7 @@ footer,.push-footer {
 @media only screen and (min-height: 1000px) {
 	.header-container {
 		position: relative;
-		 .test {
+		 .forBiggerScreens {
 			width: 95vw;
 	        position: absolute;
 	        top: 50%;
@@ -294,6 +322,11 @@ footer,.push-footer {
 	.portfolio-day-information {
 		margin-top: 0;
 	}
+}
+@media only screen and (max-width: 496px) { 
+		.countdownNumber {
+			width: 25px;
+		}
 }
 
 @media only screen and (max-width: 440px) { 
